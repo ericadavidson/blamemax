@@ -63,6 +63,7 @@ img {vertical-align: middle;}
   background-color: gray;
   font-size: 30px;
   padding: 8px 12px;
+  margin-bottom: -50px;
   position: absolute;
   bottom: 8px;
   width: 100%;
@@ -77,6 +78,11 @@ img {vertical-align: middle;}
   top: 0;
 }
 /* The dots/bullets/indicators */
+ .dot-container {
+  margin-top: 50px;
+  text-align: center;
+ }
+ 
 .dot {
   cursor: pointer;
   height: 15px;
@@ -185,7 +191,7 @@ font-size: 40px;
 </div>
 <br>
 
-<div style="text-align:center">
+<div class="dot-container">
   <span class="dot" onclick="currentSlide(1)"></span> 
   <span class="dot" onclick="currentSlide(2)"></span> 
   <span class="dot" onclick="currentSlide(3)"></span> 
